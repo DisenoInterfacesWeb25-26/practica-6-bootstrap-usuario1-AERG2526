@@ -1,0 +1,11 @@
+body {
+    margin: 10px 15px 10px 15px;
+}
+.bloque1 {
+    height: 100px;
+    background-color: aqua;
+}
+.bloque2 {
+    height: 600px;
+    background-color: red;
+}
