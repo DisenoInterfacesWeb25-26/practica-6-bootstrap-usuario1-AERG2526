@@ -6,7 +6,7 @@ body {
     background-color: rgb(0, 166, 255);
 }
 .bloque2 {
-    height: 1000px;
+    height: 600px;
     background-color: green;
 }
 
@@ -25,13 +25,13 @@ body {
 
 }
 .bloque6 {
-    height: 49%;
+    height: 48%;
     background-color: rgb(0, 255, 153);
     margin-right: 0px;
 }
 
 .bloque7 {
-    height: 49%;
+    height: 48%;
     background-color: rgb(0, 255, 153);
     margin-left: 0px;
 
@@ -49,5 +49,71 @@ body {
 }
 .bloque15 {
     height: 100px;
-    background-color: aqua;
+    background-color: rgb(0, 30, 255);
+}
+.col-sm-6 {
+    width: 49%;
+    margin: auto;
+}
+@media (min-width: 768px) {
+    .bloque3 {
+        padding-left: 8px;
+    }
+
+    .col-sm-6 {
+        width: 48%;
+    }
+
+    .bloque8 {
+        height: 44%;
+        background-color: brown;
+        margin-right: 8px;
+    }
+
+    .bloque9 {
+        height: 44%;
+        background-color: brown;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .bloque8 {
+        height: 45%;
+        background-color: brown;
+        margin-right: 5px;
+    }
+
+    .bloque9 {
+        height: 45%;
+        background-color: brown;
+    }
+
+    .bloque5 {
+        height: 250px;
+        padding: 0px 13px 0px 13px;
+
+    }
+
+    .bloque6 {
+        height: 98%;
+        background-color: blue;
+        margin-right: 8px;
+    }
+
+    .bloque7 {
+        height: 98%;
+        background-color: blue;
+        margin-left: 10px;
+    }
+
+    .col-lg-6 {
+        width: 48%;
+        margin: auto;
+    }
+
+    .col-lg-3 {
+        width: 24%;
+    }
 }
