@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DEFAFF;
+    background-color: #5bdbf1;
 }
 .div-text {
     width: 80%;
@@ -34,7 +34,7 @@ section {
     flex-wrap: wrap;
     margin-top: 50px;
 }
-.tarjeta {
+.card tarjeta {
     margin-top: 15px;
 }
 
