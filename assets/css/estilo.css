@@ -35,3 +35,15 @@ section {
 .tarjeta {
     margin-top: 15px;
 }
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.texto-footer {
+    font-size: 22px;
+}
