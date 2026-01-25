@@ -49,3 +49,22 @@ footer {
 .texto-footer {
     font-size: 22px;
 }
+
+.section-contactos {
+    padding: 40px 15px 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonSubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.formulario {
+    margin-top: 25px;
+}
