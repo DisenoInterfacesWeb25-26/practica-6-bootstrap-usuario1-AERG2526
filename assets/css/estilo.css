@@ -83,6 +83,12 @@ footer {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.formulario-contacto {
+    width: 100%;
+    max-width: 600px;   /* evita que se haga demasiado ancho */
+}
+
+
 
 .paginacion {
     margin-top: 40px;
