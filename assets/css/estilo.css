@@ -34,20 +34,12 @@ section {
     flex-wrap: wrap;
     margin-top: 50px;
 }
-
+.tarjeta {
+    width: 18rem;
+}
 .card .tarjeta {
     margin-top: 15px;
 }
-
-@media (min-width: 992px) {
-    .tabla {
-        width: 60%;
-    }
-}
-
-
-
-
 
 footer {
     height: 200px;
@@ -91,4 +83,8 @@ footer {
     width: 50%;
 }
 
-
+@media (min-width: 992px) {
+    .tabla {
+        width: 60%;
+    }
+}
