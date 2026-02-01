@@ -62,9 +62,10 @@ footer {
     align-items: center;
    
 }
-.section-contactos form {
-    width: 100%;
-    max-width: 600px;
+.section-contactos {
+    padding: 40px 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .botonSubmit {
@@ -92,8 +93,14 @@ footer {
 }
 
 .tabla {
-    width: 50%;
+    width: 100%;
+     max-width: 700px;   /* controla el ancho máximo visible */
+    margin: 0 auto;     /* centra la tabla */
 }
+.table-responsive {
+    width: 100%;
+}
+
 
 @media (min-width: 992px) {
     .tabla {
