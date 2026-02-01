@@ -60,9 +60,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 700px;      /* ancho ideal para formularios */
-    margin: 0 auto;        /* centra la sección en todas las pantallas */
-    text-align: center;    /* centra textos internos */
+   
 }
 .section-contactos form {
     width: 100%;
@@ -79,20 +77,20 @@ footer {
 .formulario {
     margin-top: 25px;
 }
-.div-breadcrumb {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.div-breadcrumb .paginacion {
+     width: 100%;
+    max-width: 500px;   /* igual que el formulario */
+    margin: 20px auto;
+
+
 }
 .formulario-contacto {
     width: 100%;
-    max-width: 600px;   /* evita que se haga demasiado ancho */
+    max-width: 500px;   /* evita que se haga demasiado ancho */
+    margin: 0 auto; 
+ 
 }
 
-
-
-.paginacion {
-    margin-top: 40px;
-}
 .tabla {
     width: 50%;
 }
