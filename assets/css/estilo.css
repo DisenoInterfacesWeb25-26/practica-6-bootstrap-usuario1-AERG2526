@@ -60,6 +60,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 700px;      /* ancho ideal para formularios */
+    margin: 0 auto;        /* centra la sección en todas las pantallas */
+    text-align: center;    /* centra textos internos */
+}
+.section-contactos form {
+    width: 100%;
+    max-width: 600px;
 }
 
 .botonSubmit {
