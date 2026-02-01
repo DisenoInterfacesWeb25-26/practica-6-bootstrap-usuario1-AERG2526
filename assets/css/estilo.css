@@ -3,14 +3,14 @@
     padding-right: 35px;
 }
 .text-principal {
-    padding: 30px 0px 30px 0px;
+    padding: 2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #5bdbf1;
 }
 .div-text {
-    width: 80%;
+    max-width: 900px;
 }
 h3 {
     font-size: 50px;
@@ -33,6 +33,7 @@ section {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 50px;
+    gap: 20px;
 }
 .tarjeta {
     width: 18rem;
